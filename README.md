@@ -48,7 +48,7 @@ To build the app, run:
 
 This will build an installer for the application for the platform you are currently using. The output is located in `./src-tauri/target/release/bundle`.
 
-# Why Tauri/Vite/React? What about Electron.js? Why use web stack at all and not just use C++/C#?
+## Why Tauri/Vite/React? What about Electron.js? Why use web stack at all and not just use C++/C#?
 
 Initially, this project began in Electron.js, but I found setting up the environment to be too slow and tedious, and every time I started up the app and saw the bundled Chromium instance come to life, I felt bad for my RAM. Electron.js is an amazing, mature framework that enables millions of web developers to frictionlessly jump into cross-platform desktop development, but something about using a bundled Chromium instance with a Node.js backend to communicate with the OS just seems janky and bloated. 
 
