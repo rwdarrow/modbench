@@ -46,7 +46,9 @@ To build the app, run:
 
 `cargo tauri build`
 
-This will build an installer for the application for the platform you are currently using. The output is located in `./src-tauri/target/release/bundle`.
+This will build an installer for the application for the platform you are currently using. The output is located in: 
+
+`./src-tauri/target/release/bundle`.
 
 ## Why Tauri/Vite/React? What about Electron.js? Why use web stack at all and not just use C++/C#?
 
