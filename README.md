@@ -1,8 +1,15 @@
 # What is Modbench?
 
-Modbench is a mod manager bringing modding into the next generation with the power of Tauri. Primarily targeting Bethesda games, Modbench aims to fuse the user-friendliness of
+Modbench is a mod manager platform bringing modding into the next generation with the power of Tauri. Primarily targeting Bethesda games, Modbench aims to fuse the user-friendliness of
 Vortex with the power and performance of Mod Organizer 2. The key goal of Modbench
 is to become a powerful, all-in-one suite for modding, or "Integrated Modding Environment" (IME), whether you are new to the scene or need to manange and configure complex modlists.
+
+## Modbench Design Principles
+
+- Intuitive, clean UI, with power under the hood: The UI should be aesthetically pleasing and approachable for beginners, without leaving advanced users wanting. Pro and advanced modes should be available.
+- Unified modding experience: advanced modding requires a lot of tools. Managing and navigating all those tools, and the files/data they generate, can become a real pain. Modbench aims to provide a synergistic experience across the full suite of modding utilites.
+- Architectual simplicity: Modbench should not do anything more than it needs to achieve its goals. 
+- Modularity and extensibility: Modbench is as much of a platform as it is a mod manager. It should be fundamentally game-agnostic, providing a foundational API that is adaptable to any game architecture, and provide a robust SDK for extensions and custom UIs.
 
 ## Planned Features
 
